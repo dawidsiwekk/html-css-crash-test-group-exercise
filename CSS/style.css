@@ -66,7 +66,6 @@ nav li a{
   color: #4B4B4B;
 }
 nav li a:hover{
-  /* Insert a text-decoration property and set it's value to underline */
   text-decoration: underline;
 }
 nav li a.join{
@@ -81,11 +80,8 @@ main{
   box-sizing: border-box;
 }
 article h2{
-  /* Insert a color property and set it's value to #F63232  */
-  /* Insert a font-size property and set it's value to 48px */
   font-size: 48px;
   color: #F63232;
-  font-size: 48px;
 }
 article p{
   line-height: 2em;
@@ -137,8 +133,6 @@ section.join h2{
   font-size: 36px;
 }
 form {
-  /* Insert a padding-left property with following value: 1.5rem */
-  /* Insert a pading-top property with following value: 6rem */
     padding-left: 1.5rem;
     padding-top: 6rem;
 }
@@ -168,11 +162,10 @@ form input:valid{
   border: 4px solid #71d300;
 }
 input[type="submit"] {
-  /* Insert a width property with following value: 39rem */
-  /* Insert a background-color property with following value: red */
-  /* Insert a font-size property with following value: xx-large */
-  /* Insert a color property with following value: ghostwhite */
-    color: ghostwhite;
+  color: ghostwhite;
+  background-color: red;
+  font-size: xx-large;
+  width: 39rem;
 }
 input[type="submit"]:focus {
     border: 4px dashed ghostwhite;
